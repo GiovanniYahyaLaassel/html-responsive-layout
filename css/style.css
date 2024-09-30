@@ -5,6 +5,15 @@
     margin: 0 auto;
     padding: 0;
 }
+body{
+    background-color: rgb(217,217,217);
+}
+header{
+    background-color: rgb(255, 255, 255);
+    font-family: "Nerko One", cursive;
+    font-size: 30px;
+    color: rgb(255, 150,20);
+}
 ul,ol{
     list-style: none;
 }
@@ -15,3 +24,38 @@ a{
 img{
     max-width: 100%;
 }
+
+/* LAYOUT */
+
+.full-container{
+    max-width: 1200px ;
+    margin: 0 auto;
+}
+ .nav-bar{
+    padding: 0 20px;
+ }
+
+
+ /* MEDIA QUERIES */
+
+ .full-container{
+    max-width: 1200px;
+    max-width: 100%;
+ }
+  /* TABLET */
+ @media (max-width: 991.99px){
+    .full-container{
+        width: 100%;
+    }
+ }
+
+ /* MOBILE */
+
+ @media (max-width: 767.99px){
+    .full-container{
+        width: 100%;
+    }
+    .nav-bar{
+       text-align: center;
+    }
+ }
