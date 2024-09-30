@@ -1,3 +1,4 @@
+
 /* RESET RULES */
 
 * {
@@ -7,6 +8,9 @@
 }
 body{
     background-color: rgb(217,217,217);
+}
+html{
+    font-family: "Montserrat", sans-serif;
 }
 header{
     background-color: rgb(255, 255, 255);
@@ -31,9 +35,29 @@ img{
     max-width: 1200px ;
     margin: 0 auto;
 }
- .nav-bar{
-    padding: 0 20px;
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.row{
+padding: 40px;
+}
+.nav-bar{
+    padding: 0 30px;
  }
+
+ /*LAYOUT-SECTION-HERO  */
+ .content-preview{
+    font-size: 10px;
+    color: #747171;
+ }
+ .title-hero{
+    font-size: 30px;
+ }
+.hero-content{
+    display: flex;
+    gap: 30px;
+}
 
 
  /* MEDIA QUERIES */
